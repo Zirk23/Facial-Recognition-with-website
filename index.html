@@ -1,67 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad Plate's Sizzling House</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/310feacd4a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><img src="images/2.png" class="navbar__image"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#top" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#middle" class="navbar__links">About Us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#bottom" class="navbar__links">Contact Us</a>
+          </li>
+          <li class="navbar__btn"><a href="/" class="button">Log in</a></li>
+        </ul>
+      </div>
+    </nav>
 
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Page</title>
-    <meta name="description" content="Discription blahblahlbahlbahlbahlbahl">
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    <div class="container">
-        <header>
-            <img src="title.png" alt="Title for Mad Plate Sizzling House">
-        </header>
-
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">LOCATION</a>
-            <a href="#">CONTACT US</a>
-        </nav>
-    
-        <main>
-            <img src="logo.png" alt="Logo for mad Plate Sizzling House">
-            <p class="mainp">Want some sizzle? <br> Its <span style="color:red">MAD</span> tasty!</p>
-
-            <p>Who's ready to taste some MAD sizzling??! Let's get ready to finish this plate! Shall we bring this house down till its sold out? Come one come all to MAD PLATE Sizzling House!</p>
-
-            
-        </main>
-
-        <article>
-            <img src="article.jpg" alt="Picture of the crew">
-            <aside>
-                <h1>About Mad Plate's Sizzling House</h1> <br> <p> Mad Plate Sizzling House is a family-owned sizzling restaurant by Cabe Family located at Sta. Ana, Manila. Established on March 10, 2023, it is a newly started business and they provide a wide range of meals, including Sizzling dishes, Silog meals, and Flavoured chicken. Pick up food or “pulutan” that is eaten by beer drinkers is also one of the foods that they offer since the vicinity of the restaurant is near resto and KTV bars.</p>
-            </aside>
-        </article>
-
-        <section class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.3996741849096!2d121.0100639494598!3d14.57628733088829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9bd5c827f35%3A0x2887938500846d3!2s2510%20Garrido%2C%20San%20Andres%20Bukid%2C%20Manila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1681746729404!5m2!1sen!2sph" width="1024" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <footer><p>Contact Us</p>
-            <div class="row">
-                <div class="column">
-                <p>facebook Page</p>
-                <a href="https://www.facebook.com/profile.php?id=100090826535166&mibextid=ZbWKwL" style="font-size: 10px;"> Mad Plate's Sizzling House</a>
-            </div>
-                <div class="column">
-                <p>Contact</p>
-                <p>0927 926 4206</p>
-            </div>
-                <div class="column">
-                <p>Location</p>
-                <p>Tejeron Garrido Corner Baliwag, Manila, Philippines</p>
-                </div>
-            </div>
-        </footer>
+    <!-- Hero Section -->
+    <div class="main" id="top">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>MAD PLATE'S</h1>
+          <h2>SIZZLING HOUSE</h2>
+          <p>Want some sizzle? Its <span style="color:red">MAD</span> tasty!</p>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/1.png" />
+        </div>
+      </div>
     </div>
 
+    <!-- Services Section -->
+    <div class="services" id="middle">
+      <h1>See what the hype is about</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>About Us</h2>
+          <p>Mad Plate Sizzling House is a family-owned sizzling restaurant by Cabe Family located at Sta. Ana, Manila. Established on March 10, 2023, it is a newly started business and they provide a wide range of meals, including Sizzling dishes, Silog meals, and Flavoured chicken.</p>
+        </div>
+        <div class="services__card">
+          <h2>Location</h2>
+          <p>We are located at 2510 Garrido cor. Tejeron St., Brgy. 874, Sta. Ana, Manila</p>
+          <a href="https://www.google.com/maps/place/2510+Garrido,+San+Andres+Bukid,+Manila,+Metro+Manila/@14.576895,121.012101,16z/data=!4m5!3m4!1s0x3397c9bd6c7592d1:0x3e18594ea7c15c83!8m2!3d14.5768945!4d121.012101?hl=en" target="_blank" aria-label="Locate"><button>Locate</button></a>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Footer Section -->
+    <div class="footer__container" id="bottom">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><img src="images/2.png" class="footer__image"></a>
+          </div>
+          <p class="website__rights">© Mad Plate's Sizzling House 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.facebook.com/profile.php?id=100090826535166&mibextid=ZbWKwL"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a class="social__icon--link" href="/" target="blank" aria-label="Contact">
+            <i class="fa-solid fa-phone"></i>
+            </a>
+            <span class="social__icons--span">0927 926 4206</span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
