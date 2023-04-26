@@ -95,7 +95,7 @@
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #ff0000;
   transition: all 0.3s ease;
 }
 
@@ -405,6 +405,8 @@
 
 .services__card button:hover {
   cursor: pointer;
+  transition: 0.3s ease-in;
+  background-color: #ff0000;
 }
 
 .services__card:hover {
